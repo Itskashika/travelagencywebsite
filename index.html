@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>DreamDestination</title>
+    <link rel="stylesheet" href="travel.css">
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h4>EasyWay Travel</h4>
+            <ul>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#specialdeals">Special Deals</a></li>
+                <li><a href="#stay">Hotels</a></li>
+                <li><a href="#aboutus">About us</a></li>
+                <li><a href="file:///C:/Users/kashi/OneDrive/Desktop/JAVASCRIPT/form.html">Register</a></l i>
+            </ul>
+            <i class="bi bi-three-dots"></i>
+        </nav>
+        <div class="content">
+            <div class="contbox">
+                <h1>The Right Desitination For You And Your Family</h1>
+                <p>Adventure awaits! Let us craft your perfect vacation with seamless planning and unforgettable memories.</p>
+                <form class="example" >
+                    <input type="text" placeholder="Search.." name="search">
+                   
+                  </form>
+            </div>
+            <div class="tripbox">
+                <div class="Searchbox">
+                    <div class="card">
+                        <h4>Location<i class="bi bi-caret-down-fill"></i></h4>
+                        <input type="text" placeholder="enter your destination" id="destination">
+                    </div>
+                    <div class="card">
+                        <h4>Start Date <i class="bi bi-caret-down-fill"></i></h4>
+                        <input type="date"id="startdate">
+                    </div>
+                    <div class="card">
+                        <h4>End Date <i class="bi bi-caret-down-fill"></i></h4>
+                        <input type="date" id="enddate">
+                    </div>
+                    <div class="card">
+                        <h4>People<i class="bi bi-caret-down-fill"></i></h4>
+                        <input type="number" placeholder="how many people?" id="people">
+                    </div>
+                    <input id="book" type="button" value="Book Now" id="sumbeit">
+                </div>
+                <script>
+                    let destination = document.getElementsById("destination");
+                    let startdate = document.getElementsById("startdate");
+                    let enddate = document.getElementsById("enddate");
+                    let people = document.getElementsById("people");
+                    let submit = document.getElementsById("submit");
+
+                submit.addEventListener('click')
+                </script>
+                <div class="travelbox">
+                    <h4>Countries of Travel</h4>
+                    <div class="cards">
+                        <div class="card">
+                            <h3>INDIA<img src="image/indianflag2.png" alt=""></h3>
+                            <img src="image/taj mahal.jpg" alt="">
+                            <div class="btncity">
+                                <a href="file:///C:/Users/kashi/OneDrive/Desktop/JAVASCRIPT/travel%20agency/tripindia.html">Read Now</a>
+                                <h5>Agra<br><span>$460</span></h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3>UNITED STATES <img src="image/US.png" alt=""></h3>
+                            <img src="image/STATUEOFLIBERTY.jpg" alt="">
+                            <div class="btncity">
+                                <a href="file:///C:/Users/kashi/OneDrive/Desktop/JAVASCRIPT/travel%20agency/triptous.html">Read Now</a>
+                                <h5>New York<br><span>$880</span></h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3>RUSSIA<img src="image/russia.png" alt=""></h3>
+                            <img src="image/russiaplace.jpg" alt="">
+                            <div class="btncity">
+                                <a href="file:///C:/Users/kashi/OneDrive/Desktop/JAVASCRIPT/travel%20agency/triptorussia.html">Read Now</a>
+                                <h5>Moscow<br><span>$660</span></h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3>FRANCE<img src="image/FRANCE.jpg" alt=""></h3>
+                            <img src="image/Eiffel tower.jpg" alt="">
+                            <div class="btncity">
+                                <a href="file:///C:/Users/kashi/OneDrive/Desktop/JAVASCRIPT/travel%20agency/triptofrance.html">Read Now</a>
+                                <h5>Paris<br><span>$780</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="offers" id="specialdeals">
+        <h1>Best Tour Package Offers for you</h1>
+        <p>Choose your next destination</p>
+        <div class="cards">
+            <div class="card">
+                <h3>Lotus-Delhi</h3>
+                <div class="imgtext">
+                    <img src="image/lotusmain.jpg" alt="">
+                    <h4>Included:Air ticket , Hotel , Breakfast, Tours , Airport Transfer</h4>
+                </div>
+                <div class="contbx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>76542</span></i>
+                            <i class="bi bi-chat-fill"><span>6532</span></i>
+                        </div>
+                        <div class="infoprice">
+                            <a href="">More Info</a>
+                            <h4>$2531</h4>
+                        </div>
+                    </div>
+                    <div class="days"> 5 Days<br>India</div>
+                </div>
+            </div>
+            <div class="card">
+                <h3> Brandenburg-Berlin</h3>
+                <div class="imgtext">
+                    <img src="image/germany.jpg" alt="">
+                    <h4>Included:Air ticket , Hotel , Breakfast, Tours , Airport Transfer</h4>
+                </div>
+                <div class="contbx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>34542</span></i>
+                            <i class="bi bi-chat-fill"><span>7532</span></i>
+                        </div>
+                        <div class="infoprice">
+                            <a href="">More Info</a>
+                            <h4>$6345</h4>
+                        </div>
+                    </div>
+                    <div class="days"> 10 Days<br>Germany</div>
+                </div>
+            </div>
+            <div class="card">
+                <h3> Temple-Bali</h3>
+                <div class="imgtext">
+                    <img src="image/bali.jpg" alt="">
+                    <h4>Included:Air ticket , Hotel , Breakfast, Tours , Airport Transfer</h4>
+                </div>
+                <div class="contbx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>34542</span></i>
+                            <i class="bi bi-chat-fill"><span>7532</span></i>
+                        </div>
+                        <div class="infoprice">
+                            <a href="">More Info</a>
+                            <h4>$3145</h4>
+                        </div>
+                    </div>
+                    <div class="days"> 7 Days<br>Indonesia</div>
+                </div>
+            </div>
+            <div class="card">
+                <h3> Tower Bridge-London</h3>
+                <div class="imgtext">
+                    <img src="image/london.jpg" alt="">
+                    <h4>Included:Air ticket , Hotel , Breakfast, Tours , Airport Transfer</h4>
+                </div>
+                <div class="contbx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>34542</span></i>
+                            <i class="bi bi-chat-fill"><span>7532</span></i>
+                        </div>
+                        <div class="infoprice">
+                            <a href="">More Info</a>
+                            <h4>$8945</h4>
+                        </div>
+                    </div>
+                    <div class="days"> 6 Days<br>England</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="destination"id="discover">
+        <div class="desbx">
+            <h4>Our Destination</h4>
+            <p>Choose Your Next Destination</p>
+            <li>India</li>
+            <li>Germany</li>
+            <li>England</li>
+            <li>New York</li>
+            <li>Moscow</li>
+            <li>Boston</li>
+            <h6>Included:Air ticket , Hotel , Breakfast, Airport Transfer</h6>
+            <h5><a href="file:///C:/Users/kashi/OneDrive/Desktop/JAVASCRIPT/travel%20agency/info.html">FAQs </a></h5>
+        </div>
+        <div class="imgbx">
+            <img src="image/aero3.jpg" alt="">
+            <div class="msg">
+                <img src="image/roundindianflag.jpg" alt="">
+                <div class="cont">
+                    <h4>India</h4>
+                    <div class="icon">
+                        <i class="bi bi-heart-fill"><span>65542</span></i>
+                        <i class="bi bi-chat-fill"><span>7532</span></i>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                <img src="image/roundus.png" alt="">
+                <div class="cont">
+                    <h4>United States</h4>
+                    <div class="icon">
+                        <i class="bi bi-heart-fill"><span>52376</span></i>
+                        <i class="bi bi-chat-fill"><span>3421</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class ="stay" id="stay">
+    <h1>Best Five Star Hotels in your location</h1>
+        <p>Check out our pick of great five-star hoteln</p>
+        <h4 ><a href="file:///C:/Users/kashi/OneDrive/Desktop/JAVASCRIPT/travel%20agency/gm.html"style="color: black ;text-decoration: none;">Book Hotel</a></h4>
+    </div>
+    <footer id="aboutus">
+        <h2>Subscribe &<br> get special discount</h2>
+        <p>Stay updated with our latest travel news and offers.</p>
+       <form id="inputsub">
+            <input type="text" placeholder="Enter your Email Address:">
+            <button type="submit">Subscribe</button>
+        </form>
+        <ul>
+            <li>50<br>
+                <h6>Years of Serving the Travel Industry</h6>
+            </li>
+            <li>45<br>
+                <h6>Global<br>Partnership</h6>
+            </li>
+            <li>40<br>
+                <h6>Industry Awards since 2016</h6>
+            </li>
+            <li>44678<br>
+                <h6>Subscribers</h6>
+            </li>
+        </ul>
+    </footer>
+    <script src="travel.js"></script>
+    
+</body>
+
+</html>
