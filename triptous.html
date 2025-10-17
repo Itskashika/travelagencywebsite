@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Discovery: A 10-Day West Coast Tour</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .day-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .day-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header & Hero Section -->
+    <header class="hero-bg text-white shadow-lg">
+        <div class="container mx-auto px-6 py-20 md:py-32 text-center">
+            <h1 class="text-4xl md:text-6xl font-playfair font-bold mb-4">American Discovery: A 10-Day Tour</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto">Experience the best of the American West, from iconic cities to breathtaking national parks, on this unforgettable 10-day journey.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Introduction Section -->
+        <section class="text-center mb-16">
+            <h2 class="text-3xl font-playfair font-bold mb-4">A West Coast Adventure</h2>
+            <p class="max-w-4xl mx-auto text-gray-600">This 10-day itinerary is designed to showcase the stunning diversity of the American West. You'll explore the vibrant streets of San Francisco, stand in awe of Yosemite's grandeur, experience the dazzling lights of Las Vegas, marvel at the Grand Canyon, and soak up the glamour of Los Angeles.</p>
+        </section>
+
+        <!-- Itinerary Section -->
+        <section>
+            <h2 class="text-3xl font-playfair font-bold text-center mb-12">Detailed 10-Day Itinerary</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Day 1-2: San Francisco -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/sanfrancisco.jpg" alt=" San Francisco" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Days 1-2: Iconic San Francisco</h3>
+                        <p class="text-gray-600 text-sm">Arrive in San Francisco and check into your hotel. Spend the next two days exploring the "City by the Bay." Ride a cable car, see the Golden Gate Bridge, visit the infamous Alcatraz Island, and enjoy the sights and sounds of Fisherman's Wharf.</p>
+                    </div>
+                </div>
+
+                <!-- Day 3-4: Yosemite National Park -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/yosemitenationalpark.jpg" alt="Yosemite National Park" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Days 3-4: Majestic Yosemite</h3>
+                        <p class="text-gray-600 text-sm">Pick up your rental car and take a scenic drive to Yosemite National Park. Marvel at towering granite cliffs like El Capitan and Half Dome, see stunning waterfalls, and walk among giant sequoia trees. Enjoy hikes for all skill levels and soak in the natural beauty.</p>
+                    </div>
+                </div>
+
+                <!-- Day 5-6: Las Vegas -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/lasvegas.jpg" alt="Las Vegas Strip" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Days 5-6: Dazzling Las Vegas</h3>
+                        <p class="text-gray-600 text-sm">Drive through the desert to Las Vegas, the entertainment capital of the world. Check into your hotel on the famous Strip, catch a world-class show, try your luck at the casinos, and enjoy the incredible dining and nightlife options this city has to offer.</p>
+                    </div>
+                </div>
+                
+                <!-- Day 7-8: Grand Canyon -->
+                 <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/grandcanyonnationalpark.jpg" alt="Grand Canyon" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Days 7-8: Awe-Inspiring Grand Canyon</h3>
+                        <p class="text-gray-600 text-sm">Take a day trip or an overnight stay at the Grand Canyon National Park. Walk along the South Rim for breathtaking panoramic views of one of the world's natural wonders. Watch a spectacular sunrise or sunset over the canyon for a truly unforgettable experience.</p>
+                    </div>
+                </div>
+
+                <!-- Day 9-10: Los Angeles -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/losangeles.jpg" alt="Hollywood Sign, Los Angeles" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Days 9-10: Glamorous LA & Departure</h3>
+                        <p class="text-gray-600 text-sm">Drive to Los Angeles. Explore the glamour of Hollywood, walk the Walk of Fame, see the mansions of Beverly Hills, and relax on the beach at Santa Monica Pier. On day 10, enjoy a final American breakfast before heading to LAX for your departure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+</body>
+</html>

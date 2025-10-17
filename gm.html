@@ -1,0 +1,138 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LuxuryStay Hotel</title>
+        <link rel="stylesheet" href="gm.css" />
+    </head>
+
+    <body>
+        <header class="navbar">
+            <h1>Luxury Stay</h1>
+            <nav>
+                <a href="#rooms">Rooms</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+    <section class="hero">
+        <h2>Experience Luxury & Comfort</h2>
+        <p>Book your dream vacation today!</p>
+        <a href="#booking" class="btn">Book Now</a>
+    </section>
+
+    <div class="container">
+        <div class="filter"id="rooms">
+            <div class="filter-item">
+                <label for="cityFilter">Filter by City:</label>
+                <select id="cityFilter">
+                    <option value="all">All Cities</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Agra">Agra</option>
+                    <option value="Varanasi">Varanasi</option>
+                    <option value="Manali">Manali</option>
+                    <option value="Ooty">Ooty</option>
+                </select>
+            </div>
+
+            <div class="filter-item">
+                <label for="amenitiesFilter">Filter by Amenities:</label>
+                <select id="amenitiesFilter">
+                    <option value="all">All Amenities</option>
+                    <option value="Free WiFi">Free WiFi</option>
+                    <option value="Free WiFi">Swimming Pool</option>
+                    <option value="Spa">Spa</option>
+                    <option value="Gym">Gym</option>
+                    <option value="Restaurant">Restaurant</option>
+                    <option value="Pool">Pool</option>
+                    <option value="Beach Access">Beach Access</option>
+                    <option value="Pet Friendly">Pet Friendly</option>
+                    <option value="Bar">Bar</option>
+                    <option value="Breakfast Included">Breakfast Included</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="hotel-list" id="hotelList">
+            <div class="hotel" data-city="Goa" data-amenities="Free WiFi, Spa,Swimming Pool, Restaurant">
+                <img src="image/astorhotel.png" alt="The Astor">
+                <div class="hotel-info">
+                    <h3>The Astor</h3>
+                    <div class="stars">★★★★☆</div>
+                    <p>City: Goa</p>
+                    <p class="price">₹7299/night</p>
+                    <p class="discount">10% off!</p>
+                    <p>Description: All Suites Hotel Candolim Goa.</p>
+                    <div class="amenities">Amenities: Free WiFi, Spa,Swimming Pool, Restaurant</div>
+                    <button class="bookhotel">Book Now</button>
+                </div>
+            </div>
+            <div class="hotel" data-city="Agra" data-amenities="Free Parking,Pet Friendly,Bar">
+                <img src="image/ekaa.jpg" alt="Ekaa Villa">
+                <div class="hotel-info">
+                    <h3>Ekaa Villa</h3>
+                    <div class="stars">★★★☆☆</div>
+                    <p>City: Agra</p>
+                    <p class="price">₹4800/night</p>
+                    <p class="discount">5% off!</p>
+                    <p>Description: Ekaa Agra was born out of our desire to showcase Agra like never before.</p>
+                    <div class="amenities">Amenities: Free Parking, Pet Friendly, Bar</div>
+                    <button class="bookhotel">Book Now</button>
+                </div>
+            </div>
+            <div class="hotel" data-city="Varanasi" data-amenities="Free WiFi,Free Parking,Breakfast Included">
+                <img src="image/templeonganges.png" alt="Temple on Ganges">
+                <div class="hotel-info">
+                    <h3>Temple on Ganges</h3>
+                    <div class="stars">★★★★☆</div>
+                    <p>City: Varanasi</p>
+                    <p class="price">₹6220/night</p>
+                    <p class="discount">15% off!</p>
+                    <p>Description:  Hotel Temple On Ganges features a rooftop restaurant overlooking the Ganges River.</p>
+                    <div class="amenities">Amenities: Free WiFi,Free Parking, Breakfast Included</div>
+                    <button class="bookhotel">Book Now</button>
+                </div>
+            </div>
+            <div class="hotel" data-city="Manali" data-amenities="Pool,Beach Access,Bar,Free Breakfast,Gym">
+                <img src="image/royalinn.png" alt="Royal Residence Inn">
+                <div class="hotel-info">
+                    <h3>Royal Residence Inn</h3>
+                    <div class="stars">★★★★★</div>
+                    <p>City: Manali</p>
+                    <p class="price">₹7300/night</p>
+                    <p class="discount">20% off!</p>
+                    <p>Description: One of the Best hotel in Himachal Pradesh.</p>
+                    <div class="amenities">Amenities: Pool, Beach Access,Bar, Free Breakfast, Gym</div>
+                    <button class="bookhotel">Book Now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel" data-city="Ooty" data-amenities="Free WiFi,Spa,Fine Dining,Concierge Service">
+                <img src="image/ayatana.png" alt="Ayatana">
+                <div class="hotel-info">
+                    <h3>Ayatana</h3>
+                    <div class="stars">★★★★★</div>
+                    <p>City: Ooty</p>
+                    <p class="price">₹2320/night</p>
+                    <p class="discount">12% off!</p>
+                    <p>Description: Enjoy world-class service and location at our Times Square luxury resort.</p>
+                    <div class="amenities">Amenities: Free WiFi, Spa, Fine Dining, Concierge Service</div>
+                    <button class="bookhotel">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer id="contact">
+        <p> CUSTOMER CARE NO.: 9123456789</p>
+        <p>&copy; 2025 LuxuryStay Hotel. All rights reserved.</p>
+    </footer>
+
+    <script src="gm.js"></script>
+</body>
+
+</html>

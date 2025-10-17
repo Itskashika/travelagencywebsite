@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Escape: A 7-Day Cultural Tour</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/russiamain.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .day-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .day-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header & Hero Section -->
+    <header class="hero-bg text-white shadow-lg">
+        <div class="container mx-auto px-6 py-20 md:py-32 text-center">
+            <h1 class="text-4xl md:text-6xl font-playfair font-bold mb-4">Russian Escape: A 7-Day Cultural Tour</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto">From grand palaces to iconic cathedrals, experience the history and soul of Russia in just one week</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Introduction Section -->
+        <section class="text-center mb-16">
+            <h2 class="text-3xl font-playfair font-bold mb-4">Explore the Russian Wonders</h2>
+            <p class="max-w-4xl mx-auto text-gray-600">This 7-day itinerary covers the cultural richness of Moscow, the imperial beauty of St. Petersburg, and the serenity of countryside landscapes, offering a perfect blend of history, art, and Russian soul. </p>
+        </section>
+
+        <!-- Itinerary Section -->
+        <section>
+            <h2 class="text-3xl font-playfair font-bold text-center mb-12">Detailed 7-Day Itinerary</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Day 1-2: San Francisco -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/moscow.jpg" alt=" Moscow " class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Welcome to Moscow – History, Heritage & Hidden Gems</h3>
+                        <p class="text-gray-600 text-sm">Begin your journey in Moscow, where grand cathedrals, Soviet architecture, and vibrant streets await. Explore iconic sights like the Kremlin, 
+                            St. Basil’s Cathedral, and the opulent metro, while enjoying rich culture, hearty cuisine, and the city’s timeless charm.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Day 3-4: Yosemite National Park -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/stpeterburgs.jpg" alt="St. Petersburg"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Days 3–4: St. Petersburg – Art, Canals & Imperial Splendor</h3>
+                        <p class="text-gray-600 text-sm">Travel to St. Petersburg, Russia’s cultural capital, known for its baroque beauty and canal-lined streets. Discover masterpieces at the Hermitage, visit majestic cathedrals, and experience Russia’s imperial past while strolling along the elegant Nevsky Prospect.
+                            .</p>
+                    </div>
+                </div>
+
+                <!-- Day 5-6: Las Vegas -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/catherine palace.jpg" alt="Catherine Palace" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Days 5–6: Royal Escapes – Peterhof & Catherine Palace</h3>
+                        <p class="text-gray-600 text-sm">Step into the luxurious world of the Russian czars with day trips to the majestic Peterhof Palace and Catherine Palace. Admire golden fountains, manicured gardens, and the famous Amber Room, capturing the grandeur of Russia’s royal heritage.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Day 7-8: Grand Canyon -->
+                <div class="day-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="image/morning.jpg" alt="Morning" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 font-playfair">Day 7: Farewell & Reflections</h3>
+                        <p class="text-gray-600 text-sm">Enjoy a relaxed final morning in St. Petersburg, picking up souvenirs and soaking in scenic beauty before departure. Reflect on your journey through Russia’s rich history, opulent landmarks, and unforgettable cultural encounters as your adventure concludes.</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+       
+</body>
+
+</html>
